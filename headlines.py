@@ -33,4 +33,4 @@ def get_news(publication="bbc"):
 
 
 if __name__ == "__main_":
-    app.run(port=5000, debug=True)
+    app.run(host="0.0.0.0")
